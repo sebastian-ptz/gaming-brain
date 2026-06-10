@@ -1,0 +1,13 @@
+# ── Obsidian: device-specific state
+#.obsidian/
+
+# ── Obsidian: trash
+.trash/
+
+# ── Claudian data
+.claudian/
+
+# ── OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

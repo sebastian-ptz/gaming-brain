@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiListTodo",
+      "LiInfo",
+      "LiQuestionMarkGlyph",
+      "LiCircleAlert",
+      "LiCircleQuestionMark"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "04 Resources/XR - VR - AR/Meta XR/Known Issues.md": "LiAlertTriangle",
+  "06 Archive/Cases/Consors Finance.md": "LiCircleQuestionMark",
+  "06 Archive/Cases/Vodafone.md": "LiCircleQuestionMark",
+  "06 Archive/Cases/DMB Rechtsschutz.md": "LiQuestionMarkGlyph",
+  "01 Inbox/02 Priority List.md": "LiAlertTriangle",
+  "01 Inbox/01 Weekly ToDo's.md": "LiListTodo"
+}
