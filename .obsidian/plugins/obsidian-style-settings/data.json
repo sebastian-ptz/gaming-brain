@@ -1,7 +1,13 @@
 {
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-full-rainbow-color-toggle",
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
-  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-sapphire",
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-sapphire"
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-sapphire",
+  "anuppuccin-theme-settings@@anp-hide-external-link-icon": false,
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
+  "anuppuccin-theme-settings@@ctp-custom-crust@@dark": "#0D0D0D",
+  "anuppuccin-theme-settings@@ctp-custom-base@@dark": "#202020",
+  "anuppuccin-theme-settings@@ctp-custom-mantle@@dark": "#181818"
 }

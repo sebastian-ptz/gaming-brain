@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiListTodo",
-      "LiInfo",
-      "LiQuestionMarkGlyph",
-      "LiCircleAlert",
-      "LiCircleQuestionMark"
+      "🌍",
+      "🎮",
+      "LiGamepad2",
+      "LiGlobe",
+      "LiImages"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,11 @@
   "06 Archive/Cases/Vodafone.md": "LiCircleQuestionMark",
   "06 Archive/Cases/DMB Rechtsschutz.md": "LiQuestionMarkGlyph",
   "01 Inbox/02 Priority List.md": "LiAlertTriangle",
-  "01 Inbox/01 Weekly ToDo's.md": "LiListTodo"
+  "01 Inbox/01 Weekly ToDo's.md": "LiListTodo",
+  "Sources/Images": "LiImages",
+  "Sources": "LiGlobe",
+  "02 Gothic Remake": "LiGamepad2",
+  "01 Path of Exile": "LiGamepad2",
+  "01 Path of Exile/Path of Exile 1": "LiGamepad2",
+  "01 Path of Exile/Path of Exile 2": "LiGamepad2"
 }
