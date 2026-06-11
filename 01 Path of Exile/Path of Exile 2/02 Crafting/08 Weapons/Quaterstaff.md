@@ -15,7 +15,7 @@ date: 2026-06-10
 - [[#Finding a Base with 3 Rune Sockets]]
 
 ---
-## **Basetypes**
+## Basetypes
 - Weapon Type: Martial Weapon, Two-Handed
 
 ### Modifiers
@@ -40,8 +40,9 @@ date: 2026-06-10
 #### Step-by-Step
 
 1. **Initial roll: chase Physical Damage**
-   - Start rolling (essences / regal / exalt) until you hit *Increased Physical Damage* at **T2** along with *Increased Level of all Melee Skills*.
-   - This is your anchor; commit to the item once both are present.
+   - Spam **Chaos Orbs** on a rare base to reroll all mods until you hit a high roll of *% Increased Physical Damage* (T2 or better).
+   - Once you land a high phys roll → immediately use a **Fracturing Orb** to lock that mod permanently.
+   - This is your anchor — the fractured phys mod will survive all future crafting steps.
 
 2. **Force a prefix slam (Exalt)**
    - Activate the **Omen of Sinister Exaltation** (next Exalted Orb only adds a prefix).
@@ -59,36 +60,41 @@ date: 2026-06-10
    - Slam another **Perfect Exalted Orb**.
    - Target: Hybrid Phys / Accuracy (locked in this step in the video).
 
-5. **Force the third prefix via Desecration**
-   - Activate **Omen of Sinister Necromancy** (next desecration mod is forced to a *prefix*).
-   - Use a **Preserved Jawbone** to desecrate.
-   - The mod will be added to the prefix pool, leaving the suffix open.
+5. **Desecrate & Reveal a prefix at the Well of Souls**
+   - Activate **Omen of Sinister Necromancy** → forces the desecrated mod onto a *prefix* slot.
+   - Use a **Preserved Jawbone** to desecrate the item.
+   - Take it to the **Well of Souls** → activate **Omen of Abyssal Echoes** for a better reveal.
+   - Reveal → you want **Physical Damage** at a high tier (T5 in the video).
+   - If the tier is bad, reroll the reveal until you land on a usable phys tier.
+   - If you want to **scrap the desecrated mod entirely** → activate **Omen of Light** then use an **Annulment Orb** — it will remove *only* the desecrated mod, leaving everything else intact.
 
-6. **Reveal the desecrated mod at the Well of Souls**
-   - Drop the Quarterstaff in the **Well of Souls**.
-   - Activate **Omen of Abyssal Echoes** for a better reveal.
-   - Reveal → you want **Physical Damage** at a high tier.
-   - If the tier is bad, **reroll** the reveal until you land on a usable Phys tier (T5 in the video).
-
-7. **Quality the weapon BEFORE corrupting**
+6. **Quality the weapon BEFORE corrupting**
    - Use **Blacksmith's Whetstones** to push quality to **20%**.
    - Do not skip this – quality is multiplicative with physical damage.
 
-8. **Optional: Slam the open suffix**
+7. **Optional: Slam the open suffix**
    - If you have one open affix and don't want to keep gambling, **Perfect Exalted Orb** straight into it.
    - In the video this landed *Legion's* (phys damage as extra) – acceptable.
+
+8. **Push quality above 20% with Vaal Blacksmith's Infuser** *(optional, high risk)*
+   - Can only be used on items **at or above maximum quality (20%)**.
+   - Each use adds up to **10% quality** (max cap: **30%**) but has a **chance to corrupt** the item.
+   - **First use is always safe** — no corruption risk on the first application.
+   - Every subsequent use risks corrupting the item, so each roll is a gamble.
+   - **Max outcome:** 30% quality → highest possible physical DPS floor before corruption.
+   - ⚠️ Only do this if you're willing to lose the item. Do **not** do this on your first craft.
 
 9. **Insert your 3 Iron Runes**
    - Socket **3 × Iron Rune** into the 3 rune sockets (more flat physical).
 
-10. **Corrupt for the 4th socket**
-    - Confirm quality is exactly **20%** (the community claim: quality > 20% prevents corrupt-success on first Vaal — keep it at 20).
+10. **Corrupt for the 4th socket** *(optional, high risk)*
     - Activate **every Omen of Corruption** you own (these bias the corruption outcome toward extra sockets).
     - Use the **Vaal Infuser** at the **Temple of Corruption**.
     - Target outcome: **4th rune socket** appears → socket a 4th Iron Rune.
     - Result in the video: 4 sockets, 4-star damage tier, **>1,000 physical DPS**.
+    - ⚠️ Corruption is destructive and irreversible. Only do this once prefixes/suffixes are fully locked and you have a backup plan.
 
-> ⚠️ Corruption is destructive. Only Vaal once the prefixes/suffixes are locked in and quality is 20%.
+> 💡 **Max-roll path:** quality to 30% via Vaal Blacksmith's Infuser → then corrupt for 4th socket. Highest DPS ceiling but two layers of RNG risk.
 
 ---
 
