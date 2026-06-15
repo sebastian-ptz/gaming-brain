@@ -96,8 +96,8 @@ If a document references **3 or fewer** external sources (URLs, wikis, guides, e
 ```markdown
 ---
 sources:
-  - https://www.poewiki.net/wiki/Example
-  - https://www.youtube.com/watch?v=example
+  - "[PoE Wiki – Example Mechanic -- poewiki.net](https://www.poewiki.net/wiki/Example)"
+  - "[Example Video Guide -- youtube.com](https://www.youtube.com/watch?v=example)"
 ---
 
 # Document Title
@@ -112,20 +112,20 @@ If a document references **more than 3** external sources, do **both**:
 ```markdown
 ---
 sources:
-  - https://www.poewiki.net/wiki/Example
-  - https://www.youtube.com/watch?v=example
-  - https://third-main-source.com
+  - "[PoE Wiki – Example Mechanic -- poewiki.net](https://www.poewiki.net/wiki/Example)"
+  - "[Example Video Guide -- youtube.com](https://www.youtube.com/watch?v=example)"
+  - "[Third Main Source -- third-source.com](https://third-main-source.com)"
 ---
 
 # Document Title
 
 ---
 ## List of Sources
-- [PoE Wiki – Mechanic Name](https://www.poewiki.net/wiki/Example)
-- [Guide Title](https://www.youtube.com/watch?v=example)
-- [Third Main Source](https://third-main-source.com)
-- [Additional Resource](https://example.com)
-- [Another Guide](https://another.com)
+- [PoE Wiki – Example Mechanic -- poewiki.net](https://www.poewiki.net/wiki/Example)
+- [Example Video Guide -- youtube.com](https://www.youtube.com/watch?v=example)
+- [Third Main Source -- third-source.com](https://third-main-source.com)
+- [Additional Resource -- example.com](https://example.com)
+- [Another Guide -- another.com](https://another.com)
 - ...
 
 ---
@@ -141,12 +141,15 @@ Content here...
 
 ### Guidelines
 
-1. **Sources in frontmatter** use plain URLs as list items (no markdown link syntax needed)
-2. **Sources in body** (`List of Sources`) use markdown link format: `[Label](url)`
-3. **Threshold is exactly 3**: ≤3 sources → frontmatter only; 4+ sources → frontmatter (top 3) + body section
-4. **When >3 sources**, the 3 most relevant/primary sources must always still appear in the frontmatter
-5. **Only include `sources:` if the document actually references external sources** — do not add an empty key
-6. **`List of Sources` always precedes `List of Content`** when both appear as body sections
+1. **Source format** — always use `[Page Title -- domain.com](url)` for every source entry:
+   - The label contains the **page/guide title**, then ` -- `, then the **short domain** (e.g. `poewiki.net`, `youtube.com`, `game8.co`)
+   - Example: `[Endgame Atlas of Worlds Guide -- game8.co](https://game8.co/...)`
+2. **Sources in frontmatter** wrap the markdown link in quotes: `"[Title -- domain.com](url)"`
+3. **Sources in body** (`List of Sources`) use the same `[Title -- domain.com](url)` format, no quotes needed
+4. **Threshold is exactly 3**: ≤3 sources → frontmatter only; 4+ sources → frontmatter (top 3) + body section
+5. **When >3 sources**, the 3 most relevant/primary sources must always still appear in the frontmatter
+6. **Only include `sources:` if the document actually references external sources** — do not add an empty key
+7. **`List of Sources` always precedes `List of Content`** when both appear as body sections
 
 ---
 
@@ -218,8 +221,8 @@ Claude will ask before:
 ```markdown
 ---
 sources:
-  - https://source-one.com
-  - https://source-two.com
+  - "[Source One Title -- source-one.com](https://source-one.com)"
+  - "[Source Two Title -- source-two.com](https://source-two.com)"
 ---
 
 # Document Title
@@ -240,19 +243,19 @@ sources:
 ```markdown
 ---
 sources:
-  - https://primary-source.com
-  - https://second-source.com
-  - https://third-source.com
+  - "[Primary Source Title -- primary-source.com](https://primary-source.com)"
+  - "[Second Source Title -- second-source.com](https://second-source.com)"
+  - "[Third Source Title -- third-source.com](https://third-source.com)"
 ---
 
 # Document Title
 
 ---
 ## List of Sources
-- [Primary Source](https://primary-source.com)
-- [Second Source](https://second-source.com)
-- [Third Source](https://third-source.com)
-- [Fourth Source](https://fourth-source.com)
+- [Primary Source Title -- primary-source.com](https://primary-source.com)
+- [Second Source Title -- second-source.com](https://second-source.com)
+- [Third Source Title -- third-source.com](https://third-source.com)
+- [Fourth Source Title -- fourth-source.com](https://fourth-source.com)
 - ...
 
 ---
@@ -274,4 +277,4 @@ sources:
 
 ---
 
-*Last Updated: 2026-06-11*
+*Last Updated: 2026-06-12*

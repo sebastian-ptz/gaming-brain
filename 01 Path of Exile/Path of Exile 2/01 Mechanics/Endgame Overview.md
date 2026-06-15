@@ -5,16 +5,14 @@ tags:
   - atlas
   - guide
 date: 2026-06-10
+sources:
+  - "[Endgame Atlas of Worlds Guide -- Game8.co](https://game8.co/games/Path-of-Exile-2/archives/487370)"
 ---
-
-# PoE2 Endgame Overview
-
-Source: https://game8.co/games/Path-of-Exile-2/archives/487370
 
 ![[Sources/Images/Path of Exile 2/poe2-atlas-overview.png]]
 
 ---
-## Content
+## List of Content
 - [[#What Is the Endgame?]]
 - [[#How to Unlock the Atlas of Worlds]]
 - [[#Core Loop & Progression Path]]
